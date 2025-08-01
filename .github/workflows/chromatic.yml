@@ -32,3 +32,5 @@ jobs:
           autoAcceptChanges: true
           # 👇 Don't fail the build on visual changes
           exitZeroOnChanges: true
+          # 👇 Use pre-built Storybook instead of building again
+          storybookBuildDir: storybook-static
